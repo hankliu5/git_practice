@@ -75,7 +75,14 @@ $ git commit -m "<commit message>"
 $ git push -u origin <your branch name>
 ```
 
-## Demo 3-2: Update the Shared Branches
+## Demo 4-1: Pull Request
+1. Go to https://github.com/ESCALNCSU/GitPractice
+2. Click **[new pull request]**
+3. Choose base as `dev`
+4. Choose compare as `<your branch>`
+5. Click **[Create pull request]**
+
+## Demo 4-2: Update the Shared Branches
 ```shell
 $ git checkout dev
 
@@ -89,7 +96,7 @@ $ git merge dev
 $ git status
 ```
 
-## Demo 4: Fix Conflicts
+## Demo 5: Fix Conflicts
 ```shell
 ### use editor to edit the conflicted file
 ### search "===="
@@ -101,11 +108,6 @@ $ git commit -m "fix the conflict"
 $ git push
 ```
 
-## Demo 5: Pull Request
-1. Go to https://github.com/ESCALNCSU/GitPractice
-2. Click **[new pull request]**
-3. Choose base as `dev`
-4. Choose compare as `<your branch>`
-5. Click **[Create pull request]**
+
 
 
